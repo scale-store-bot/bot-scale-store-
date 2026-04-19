@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bot – Analyse de Deals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>Analyseur de Deals – Scale Store</h1>
+
+<div class="filters">
+    <label>Prix max d’achat :</label>
+    <input type="number" id="maxPrice" placeholder="Ex: 50">
+
+    <label>Marge minimum (€) :</label>
+    <input type="number" id="minMargin" placeholder="Ex: 20">
+
+    <label>Catégorie :</label>
+    <select id="category">
+        <option value="">Toutes</option>
+        <option value="tech">Tech</option>
+        <option value="mode">Mode</option>
+        <option value="maison">Maison</option>
+    </select>
+
+    <button onclick="searchDeals()">Chercher les deals</button>
+</div>
+
+<div id="results"></div>
+
+<script src="bot.js"></script>
+</body>
+</html>
