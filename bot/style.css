@@ -1,1 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    padding: 20px;
+}
 
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.filters {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.filters input, .filters select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #6a00ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5200cc;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
