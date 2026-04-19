@@ -1,1 +1,63 @@
+/* --- GLOBAL --- */
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #f5d67b; /* or premium */
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+/* --- TITRES --- */
+h1, h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    color: #f5d67b;
+}
+
+/* --- LIENS --- */
+a {
+    color: #f5d67b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #ffea9c;
+}
+
+/* --- LISTE DES PAGES --- */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+ul li {
+    margin: 20px 0;
+}
+
+/* --- BOUTONS PREMIUM --- */
+.btn, ul li a {
+    display: inline-block;
+    padding: 12px 25px;
+    border: 1px solid #f5d67b;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.btn:hover, ul li a:hover {
+    background: #f5d67b;
+    color: #000;
+    transform: scale(1.05);
+}
+
+/* --- CONTENEUR --- */
+p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #f5d67b;
+}
 
